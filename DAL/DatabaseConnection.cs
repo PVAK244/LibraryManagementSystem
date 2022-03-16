@@ -5,7 +5,7 @@ namespace DAL
 {
     public class DatabaseConnection
     {
-        protected string connectString = "Data Source=localhost;Initial Catalog=LibraryManagementSystem;Integrated Security=True";
+        protected string connectString = "Data Source=localhost;Initial Catalog=LibraryManagementSystem;Persist Security Info=True;User ID=sa;Password=123456";
         protected SqlConnection conn;
         public void OpenConnection()
         {
